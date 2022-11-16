@@ -1,0 +1,107 @@
+/* start home */
+#home{
+    background-image: url(../imgs/hero-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.navbar{
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: white
+}
+
+.navbar .navbar-brand{
+    color: #20c997;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.navbar  .navbar-nav .active {
+    color: #20c997;
+}
+.navbar  .navbar-nav li a{
+    color: rgb(164 164 164);
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar  .navbar-nav li a:hover{
+    color:#20c997;
+}
+.content{
+    text-align: center;
+    display: block;
+    align-items:center ;
+    font-size: 50px;
+    
+}
+.bg{
+    background-color: rgba(41, 38, 38, 0.6);
+    height: 86.5%;
+}
+.content .btn{
+    border: 2px solid #20c997;
+    background-color: transparent;
+    color: #20c997;
+    font-size: 20px;
+    font-weight: 400;
+    transition:1s ;
+    -webkit-transition:1s ;
+    -moz-transition:1s ;
+    -ms-transition:1s ;
+    -o-transition:1s ;
+}
+.content .btn:hover{
+    background-color: #20c997;
+    color: white;
+}
+/* end home */
+/* start about */
+.about-content i{
+    color: #20c997;
+
+}
+/* start why */
+.why-info{
+    background-color: #20c997;
+}
+.why-btn{
+    border: none;
+    background-color: rgba(255, 255, 255,0.6);
+    color: white;
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+}
+.why-btn:hover{
+    background-color: white;
+    color: #20c997;
+}
+
+.why-details i{
+    color: #20c997;
+    background-color: #ECF9F0;
+}
+/* start courses */
+#course h6{
+position: relative;
+}
+#course h6::after{
+    content: "";
+    width: 100px;
+    background-color: #20c997;
+    height: 2px;
+    position: absolute;
+    left: 7%;
+    top: 77%;
+
+}
+.card-title{
+    background-color: #20c997;
+    color: white;
+}
+.trainer-img img{
+    width: 50px;
+} 
